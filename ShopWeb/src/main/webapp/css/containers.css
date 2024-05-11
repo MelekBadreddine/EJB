@@ -1,0 +1,85 @@
+@charset "ISO-8859-1";
+
+body {
+    background-color: #1c1c1e;
+    color: #f0f0f0;
+}
+
+.clTable1 {
+    margin: auto;
+    width: 70%;
+}
+
+.clTable11 {
+    padding-left: 1rem;
+    margin-right: 4%;
+    border-radius: 25px;
+    width: 54%;
+    border: 7px solid rgba(60, 60, 67, 0.5);
+    background-color: #2c2c2e;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-style: hidden;
+    border-right-style: solid;
+    border-bottom-style: hidden;
+    border-left-style: solid;
+}
+
+.clTable12 {
+    padding-left: 1rem;
+    border-radius: 25px;
+    margin-left: 4%;
+    width: 38%;
+    border: 7px solid rgba(60, 60, 67, 0.5);
+    background-color: #2c2c2e;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-style: hidden;
+    border-right-style: solid;
+    border-bottom-style: hidden;
+    border-left-style: solid;
+}
+
+.clTable2 {
+    margin: auto;
+    border-radius: 25px;
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 7px solid rgba(60, 60, 67, 0.5);
+    background-color: #2c2c2e;
+    margin-top: 30px;
+    border-top-style: hidden;
+    border-right-style: solid;
+    border-bottom-style: hidden;
+    border-left-style: solid;
+}
+
+.center {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-hover>tbody>tr:hover>* {
+    --bs-table-accent-bg: rgba(60, 60, 67, 0.5);
+}
+
+input[type=text] {
+    transition: all 0.4s ease-in-out;
+    background-color: #3a3a3c;
+    color: #f0f0f0;
+    border: 1px solid #6e6e70;
+}
+
+input[type=text]:hover {
+    background-color: #4d4d50;
+}
+
+input[type=text]:focus {
+    background-color: #4d4d50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
